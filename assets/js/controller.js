@@ -15,7 +15,10 @@ angular.module('starter.controllers', [])
           console.log(user);
         }); // get() returns a single user
         console.log(response);
-      });
+      }, {
+       scope: 'email,user_friends',
+       return_scopes: true
+    });
     };
     $scope.getLoginStatus = function() {
       Facebook.getLoginStatus(function(response) {
