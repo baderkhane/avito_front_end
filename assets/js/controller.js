@@ -37,4 +37,8 @@ angular.module('starter.controllers', [])
 })
 .controller("LoginCtrl", function($scope){
 
+})
+.controller("AdsCtrl", function($scope){
+    $('#myModal').modal('toggle');
+    $('#myModal').modal('show');
 });

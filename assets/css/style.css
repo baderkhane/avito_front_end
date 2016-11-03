@@ -261,7 +261,7 @@ div.user-menu div.user-menu-content:not(.active){
 .modal {
   position: fixed !important;
   top: 0 !important;
-  height: 200px;
+  height: 228px;
   margin: 0 auto !important;
   z-index: 1050 !important;
 }
@@ -294,4 +294,21 @@ div.circle.circle3 {
   margin-top: -38px;
   margin-left: 31px;
   background: url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-1/p320x320/10636114_10205870078609391_658227479320661461_n.jpg?oh=16a711fdf4ea177a2aba5de369014736&oe=588AB528") no-repeat;
+}
+.arc-class {
+  background: url("../img/Arc.png") no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.relation-modal {
+  float: left;
+  width: 373px;
+}
+.modal-content p{
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 21px;
+    color: #4f9de2;    
+    font-weight: 600;
 }
