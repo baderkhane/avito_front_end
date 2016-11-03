@@ -238,3 +238,9 @@ div.user-menu div.user-menu-content:not(.active){
 .vertical-offset-100{
     padding-top:100px;
 }
+.login-header-logo {
+  width: 240px;
+  height: 48px;
+  background: url('../img/collections.png') no-repeat -2411px -2px;
+  margin: 38px auto;
+}
