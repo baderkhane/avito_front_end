@@ -244,3 +244,17 @@ div.user-menu div.user-menu-content:not(.active){
   background: url('../img/collections.png') no-repeat -2411px -2px;
   margin: 38px auto;
 }
+.nav-tabs.nav-fullwidth li a{
+  height: 40px;
+}
+.carousel-inner {
+  float: none !important;
+  margin: 0 auto;
+}
+.span21 {
+  width: 706px;
+}
+.span20 {
+    float: right;
+    margin-left: inherit;
+}
