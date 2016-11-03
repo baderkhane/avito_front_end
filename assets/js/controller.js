@@ -1,5 +1,5 @@
 angular.module('starter.controllers', [])
-.controller("UserProfileCtrl",function($scope, Facebook){
+.controller("UserProfileCtrl",function($scope, Facebook, User){
     $scope.$watch(function() {
       // This is for convenience, to notify if Facebook is loaded and ready to go.
       return Facebook.isReady();
@@ -11,7 +11,9 @@ angular.module('starter.controllers', [])
       console.log("clicked");
     // From now on you can use the Facebook service just as Facebook api says
       Facebook.login(function(response) {
-        // Do something with response.
+        var user = User.get({ token: response.authResponse.accessToken }, function() {
+          console.log(user);
+        }); // get() returns a single user
         console.log(response);
       });
     };
