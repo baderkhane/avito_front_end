@@ -233,5 +233,8 @@ div.user-menu div.user-menu-content:not(.active){
     color: #607D8B;
 }
 .fa.fa-cart-arrow-down{
-  color: #4CAF50;  
+  color: #4CAF50;
+}
+.vertical-offset-100{
+    padding-top:100px;
 }

@@ -34,4 +34,7 @@ angular.module('starter.controllers', [])
         $scope.user = response;
       });
     };
+})
+.controller("LoginCtrl", function($scope){
+
 });
