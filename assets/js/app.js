@@ -16,5 +16,5 @@ angular.module('starter', ['starter.controllers','starter.services', 'facebook',
  .when('/announce', {
   templateUrl: 'template/announce.html'
 })
-  .otherwise({redirectTo:'/profile'});
+  .otherwise({redirectTo:'/login'});
 });

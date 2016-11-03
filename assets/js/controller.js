@@ -35,8 +35,16 @@ angular.module('starter.controllers', [])
       });
     };
 })
-.controller("LoginCtrl", function($scope){
-
+.controller("LoginCtrl", function($scope, $location, LoginService){
+  $scope.data = {};
+  $scope.login = function() {
+      LoginService.loginUser($scope.data.username, $scope.data.password).success(function(data) {
+          //$state.go('/profile/');
+          $location.path("/profile");
+      }).error(function(data) {
+          console.log("password and user are not correcte");
+      });
+    }
 })
 .controller("AdsCtrl", function($scope){
     $('#myModal').modal('toggle');
