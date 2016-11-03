@@ -304,11 +304,42 @@ div.circle.circle3 {
   float: left;
   width: 373px;
 }
-.modal-content p{
+.modal-content p {
     float: left;
     text-align: center;
     margin-left: 30px;
     margin-top: 21px;
-    color: #4f9de2;    
+    color: #4f9de2;
     font-weight: 600;
+}
+
+<!-- likes -->
+
+ .circleStatsItem {
+     position: relative;
+     background: rgba(255,255,255,0.7);
+     -webkit-box-shadow: inset 0 0px 0 5px rgba(0,0,0,.2), 0 0px 0 3px rgba(0,0,0,.1);
+     -moz-box-shadow: inset 0 0px 0 5px rgba(0,0,0,.2), 0 0px 0 3px rgba(0,0,0,.1);
+     box-shadow: inset 0 0px 0 5px rgba(0,0,0,.2), 0 0px 0 3px rgba(0,0,0,.1);
+     -webkit-border-radius: 50em;
+     -moz-border-radius: 50em;
+     border-radius: 50em;
+     width: 78px;
+     height: 78px;
+     margin: 10px 10px 10px auto;
+     color: #6b6b6d;
+     float:left;
+ }
+.circleStatsItem .num-value {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 36%;
+    margin-left: 23px;
+}
+.circleStatsItem .percent {
+    font-size: 16px;
+    position: absolute;
+    top: 38%;
+    margin-left: 44px;
 }
